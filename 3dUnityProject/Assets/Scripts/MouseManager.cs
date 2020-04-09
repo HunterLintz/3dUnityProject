@@ -13,6 +13,8 @@ public class MouseManager : MonoBehaviour
 	public Texture2D target;//Cursor for clickable objects like the world
 	public Texture2D doorway;//Cursor for doorways
 	public Texture2D combat;//Cursor for combat actions
+
+	private bool door;
 	
 	public EventVector3 OnClickEnvironment;
 
@@ -23,7 +25,7 @@ public class MouseManager : MonoBehaviour
 
 		if(Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out hit, 50, clickableLayer.value))
 		{
-			bool door = false;
+			door = false;
 			if (hit.collider.gameObject.tag == "Doorway")
 			{
 				Cursor.SetCursor(doorway,new Vector2 (16, 16), CursorMode.Auto);
