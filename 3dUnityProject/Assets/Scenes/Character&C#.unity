@@ -1059,13 +1059,10 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-<<<<<<< HEAD
   m_LocalRotation: {x: -0.30578786, y: 0.12999474, z: -0.042185362, w: -0.94223964}
   m_LocalPosition: {x: 7.2215075, y: 11.041725, z: -13.652676}
-=======
   m_LocalRotation: {x: 0.35355338, y: -0.35355338, z: 0.1464466, w: 0.8535535}
   m_LocalPosition: {x: 17.63, y: 25.12, z: -12.65}
->>>>>>> origin/Hunter
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
